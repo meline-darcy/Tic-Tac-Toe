@@ -1,0 +1,87 @@
+
+
+
+
+button {
+    background-color: #ff3111;
+    color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin-left: 156px;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form{
+  
+    margin-left: 37%;
+    width: 400px;
+    height: 500px;
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
+}
+
+
+
+
+
+.tic-tac-toe {
+    margin: 3em;
+  
+}
+
+.tic-tac-toe td {
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+   
+}
+
+.tic-tac-toe .vertical-border {
+    border-left-color: #eee;
+    border-right-color: #eee;
+}
+
+.tic-tac-toe .horizontal-border {
+    border-top-color: #eee;
+    border-bottom-color: #eee;
+}
+
+.tic-tac-toe .center-border {
+    border-color: #eee;
+}
+
+.welcome .player-name {
+    margin: 30px 0;
+}
+
+.reset-btn {
+    display: inline-block;
+    font-size: 8pt;
+    color: green;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+input {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+    color: #333;
+  
+}
+
+h2{
+    text-align: center;
+}
